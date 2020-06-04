@@ -1,3 +1,7 @@
+
+body{
+    position: relative;
+}
 nav{
     margin-left: 85%;
     margin-top: 1.5rem;
@@ -29,11 +33,37 @@ button{
 }
 footer{
     display: flex;
+    background-color: lightgray;
+    padding: 1rem;
 }
 #footer-links{
     display: flex;
     margin-top: 3rem;
+    margin-left: -3rem;
 }
 #left-footer{
-    margin-right: 40rem;
+    margin-right: 45rem;
+}
+#search-icon{
+    margin: 1rem;
+    position: absolute;
+    color: gray;
+}
+#mic-icon{
+    margin-top: 1rem;
+    margin-left: 30rem;
+    position: absolute;
+    color: blue;
+}
+
+@media only screen and (max-width: 1000px){
+    #left-footer{
+        margin-right: 30rem;
+    }
+    #mic-icon{
+        margin-top: 1rem;
+        margin-left: 23rem;
+        position: absolute;
+        color: blue;
+    }
 }
